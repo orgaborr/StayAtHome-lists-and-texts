@@ -7,3 +7,11 @@ names.forEach((name) => {
         $('#myList').append('<li>' + name + '</li>');
     }
 });
+
+let additionalBlock = {
+    title: "Added wit hjavascript",
+    text: "This block was added using JavaScript's jQuery library. How awesome!"
+}
+
+$('main').append('<h3>' + additionalBlock.title + "</h3>");
+$('main').append('<p>' + additionalBlock.text + '</p>');
