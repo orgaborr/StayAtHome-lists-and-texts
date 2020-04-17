@@ -1,0 +1,20 @@
+main {
+  width: 50%;
+}
+
+h2 {
+  color: #E86C2E;
+}
+
+h3 {
+  color: purple;
+}
+
+ol {
+  font-style: underlined;
+  color: magenta;
+}
+
+#roman {
+  color: black;
+}
